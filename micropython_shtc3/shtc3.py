@@ -15,7 +15,6 @@ MicroPython Driver for the Sensirion SHTC3 Temperature and Humidity Sensor
 import time
 import struct
 from micropython import const
-from micropython_shtc3.i2c_helpers import CBits, RegisterStruct
 
 try:
     from typing import Tuple
@@ -38,6 +37,7 @@ operation_mode_values = (SLEEP, WAKEUP)
 NORMAL = const(0x7866)
 LOW_POWER = const(0x609C)
 power_mode_values = (NORMAL, LOW_POWER)
+
 
 class SHTC3:
     """Driver for the SHTC3 Sensor connected over I2C.
@@ -82,7 +82,6 @@ class SHTC3:
         self._time_operation = None
         self.operation_mode = WAKEUP
         self.power_mode = NORMAL
-
 
     @property
     def operation_mode(self) -> str:
