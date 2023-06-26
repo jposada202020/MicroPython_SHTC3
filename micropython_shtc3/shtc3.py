@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: Copyright (c) 2020 Bryan Siepert for Adafruit Industries
 # SPDX-FileCopyrightText: Copyright (c) 2023 Jose D. Montoya
 #
 # SPDX-License-Identifier: MIT
@@ -8,7 +9,7 @@
 MicroPython Driver for the Sensirion SHTC3 Temperature and Humidity Sensor
 
 
-* Author(s): Jose D. Montoya
+* Author(s): Bryan Siepert, Jose D. Montoya
 
 
 """
