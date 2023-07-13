@@ -1,7 +1,13 @@
 {
   "urls": [
-    ["micropython_shtc3/__init__.py", "github:jposada202020/MicroPython_SHTC3/micropython_shtc3/__init__.py"],
-    ["micropython_shtc3/shtc3.py", "github:jposada202020/MicroPython_SHTC3/micropython_shtc3/shtc3.py"]
+    [
+      "micropython_shtc3/__init__.py",
+      "github:jposada202020/MicroPython_SHTC3/micropython_shtc3/__init__.py"
+    ],
+    [
+      "micropython_shtc3/shtc3.py",
+      "github:jposada202020/MicroPython_SHTC3/micropython_shtc3/shtc3.py"
+    ]
   ],
-  "version": "0.1"
+  "version": "1"
 }

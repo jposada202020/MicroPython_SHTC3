@@ -20,7 +20,7 @@ while True:
         print("Current Operation mode setting: ", sht.power_mode)
         for _ in range(10):
             temp = sht.temperature
-            print("Temperature: {:.2f}C".format(temp))
+            print(f"Temperature: {temp:0.1f}°C")
             print()
             time.sleep(0.5)
         sht.power_mode = power_mode
